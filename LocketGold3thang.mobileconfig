@@ -1,55 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
- version="1.0" encoding="UTF-8"?>
 <plist version="1.0">
-    <dict>
-        <key>PayloadContent</key>
-        <array>
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
             <dict>
-                <key>DNSSettings</key>
-                <dict>
-                    <key>DNSProtocol</key>
-                    <string>TLS</string>
-                    <key>ServerAddresses</key>
-                    <array>
-                        <string>45.90.28.137</string>
-                        <string>45.90.30.137</string>
-                    </array>
-                    <key>ServerName</key>
-                    <string>dbbd9d.dns.nextdns.io</string>
-                </dict>
-                <key>PayloadDisplayName</key>
-                <string>LocketGold 3 tháng</string>
-                <key>PayloadIdentifier</key>
-                <string>LocketGold3thang.dns</string>
-                <key>PayloadType</key>
-                <string>com.apple.dnsSettings.managed</string>
-                <key>PayloadUUID</key>
-                <string>3A2A38F0-6B39-4CDA-960F-D04D769AA0B5</string>
-                <key>PayloadVersion</key>
-                <integer>1</integer>
+                <key>DNSProtocol</key>
+                <string>TLS</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>45.90.28.137</string>
+                    <string>45.90.30.13</string>
+                </array>
+                <key>ServerName</key>
+                <string>dbbd9d.dns.nextdns.io</string>
             </dict>
-        </array>
-        <key>PayloadDisplayName</key>
-        <string>LocketGold 3 tháng</string>
-        <key>PayloadDescription</key>
-        <string>DNS locketgold 3 tháng:
-- giữ gold trong vòng 3 tháng</string>
-        <key>PayloadIdentifier</key>
-        <string>LocketGold3thang</string>
-        <key>PayloadRemovalDisallowed</key>
-        <false/>
-        <key>PayloadType</key>
-        <string>Configuration</string>
-        <key>PayloadUUID</key>
-        <string>0BD472F6-F3BB-4A1C-8DF5-0995AC6EAF75</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-        <key>PayloadScope</key>
-        <string>System</string>
-        <key>HasRemovalPasscode</key>
-        <false/>
-        <key>IsEncrypted</key>
-        <false/>
-    </dict>
+
+            <key>PayloadDisplayName</key>
+            <string>LocketGold DNS</string>
+            <key>PayloadIdentifier</key>
+            <string>com.locketgold.dns.dbbd9d</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>C9A08899-0470-4BDB-84E3-2A9D9D9EBC19</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+
+    <key>PayloadDisplayName</key>
+    <string>LocketGold DNS</string>
+    <key>PayloadDescription</key>
+    <string>DNS Configuration:
+- Block ads and trackers
+- Secure DNS connection</string>
+
+    <key>PayloadIdentifier</key>
+    <string>com.locketgold.dns.profile.dbbd9d</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>0640A102-8AFF-4CC5-BF41-9C67C238B758</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>HasRemovalPasscode</key>
+    <false/>
+    <key>IsEncrypted</key>
+    <false/>
+</dict>
 </plist>
