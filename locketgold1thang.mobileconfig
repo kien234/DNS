@@ -1,59 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>PayloadContent</key>
-    <array>
-        <dict>
-            <key>DNSSettings</key>
-            <dict>
-                <key>DNSProtocol</key>
-                <string>TLS</string>
-                <key>ServerAddresses</key>
-                <array>
-                    <string>45.90.28.0</string>
-                    <string>45.90.30.0</string>
-                </array>
-                <key>ServerName</key>
-                <string>95e74b.dns.nextdns.io</string>
-            </dict>
-
-            <key>PayloadDisplayName</key>
-            <string>LocketGold 1 Tháng</string>
-            <key>PayloadIdentifier</key>
-            <string>com.locketgold.dns.1month</string>
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
-            <key>PayloadUUID</key>
-            <string>550E8400-E29B-41D4-A716-446655440001</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-        </dict>
-    </array>
-
+  <dict>
     <key>PayloadDisplayName</key>
-    <string>LocketGold 1 Tháng</string>
+    <string>locketgoldonion.click</string>
     <key>PayloadDescription</key>
-    <string>ADB Block (v1.0):
-- Chặn quảng cáo cho toàn bộ thiết bị...
-- Nâng cấp LocketGold
-Support: locketgoldonion.click | Config by: locketgoldonion.click</string>
-
+    <string>This profile enables DNS for locketgold.click on all networks using the native Encrypted DNS feature.</string>
     <key>PayloadIdentifier</key>
-    <string>com.locketgold.dns.profile.1month</string>
-    <key>PayloadRemovalDisallowed</key>
-    <false/>
+    <string>com.locketgold.click.dns.profile</string>
+    <key>PayloadScope</key>
+    <string>System</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>550E8400-E29B-41D4-A716-446655440000</string>
+    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.95e74b</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
-    <key>PayloadScope</key>
-    <string>System</string>
-    <key>HasRemovalPasscode</key>
-    <false/>
-    <key>IsEncrypted</key>
-    <false/>
-</dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>DNSSettings</key>
+        <dict>
+          <key>DNSProtocol</key>
+          <string>HTTPS</string>
+          <key>ServerURL</key>
+          <string>https://apple.dns.nextdns.io/95e74b</string>
+        </dict>
+        <key>OnDemandRules</key>
+        <array>
+          <dict>
+            <key>Action</key>
+            <string>EvaluateConnection</string>
+            <key>ActionParameters</key>
+            <array>
+              <dict>
+                <key>DomainAction</key>
+                <string>NeverConnect</string>
+                <key>Domains</key>
+                <array>
+                  <string>captive.apple.com</string>
+                  <string>dav.orange.fr</string>
+                  <string>vvm.mobistar.be</string>
+                  <string>vvm.mstore.msg.t-mobile.com</string>
+                  <string>tma.vvm.mone.pan-net.eu</string>
+                  <string>vvm.ee.co.uk</string>
+                </array>
+              </dict>
+            </array>
+          </dict>
+          <dict>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+        </array>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadIdentifier</key>
+        <string>io.nextdns.95e74b.profile.dnsSettings.managed</string>
+        <key>PayloadUUID</key>
+        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.95e74b.dnsSettings.managed</string>
+        <key>PayloadDisplayName</key>
+        <string>locketgoldonion.click</string>
+        <key>PayloadOrganization</key>
+        <string>locketgoldonion.click</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+    </array>
+  </dict>
 </plist>
