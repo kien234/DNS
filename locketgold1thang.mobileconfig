@@ -5,15 +5,15 @@
     <key>PayloadDisplayName</key>
     <string>locketgoldonion.click</string>
     <key>PayloadDescription</key>
-    <string>This profile enables DNS for locketgold.click on all networks using the native Encrypted DNS feature.</string>
+    <string>Dns này hỗ trợ chặn locket quét mất gold nếu bạn mất gold hãy liên hệ với onion để được bảo hành</string>
     <key>PayloadIdentifier</key>
-    <string>com.locketgold.click.dns.profile</string>
+    <string>io.nextdns.95e74b.profile</string>
     <key>PayloadScope</key>
     <string>System</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.95e74b</string>
+    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.9ca87a</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadContent</key>
@@ -24,7 +24,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://apple.dns.nextdns.io/95e74b</string>
+          <string>https://apple.dns.nextdns.io/9ca87a</string>
         </dict>
         <key>OnDemandRules</key>
         <array>
@@ -56,9 +56,9 @@
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadIdentifier</key>
-        <string>io.nextdns.95e74b.profile.dnsSettings.managed</string>
+        <string>io.nextdns.9ca87a.profile.dnsSettings.managed</string>
         <key>PayloadUUID</key>
-        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.95e74b.dnsSettings.managed</string>
+        <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.9ca87a.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
         <string>locketgoldonion.click</string>
         <key>PayloadOrganization</key>
