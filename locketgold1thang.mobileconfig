@@ -5,7 +5,8 @@
     <key>PayloadDisplayName</key>
     <string>locketgold.click</string>
     <key>PayloadDescription</key>
-    <string>Dns này hỗ trợ chặn locket quét mất gold nếu bạn mất gold hãy liên hệ với admin để được bảo hành</string>
+    <string>Dns này hỗ trợ chặn locket quét mất gold nếu bạn mất gold hãy liên hệ với admin để được bảo hành
+    hạn sử dụng tới ngày 28/2</string>
     <key>PayloadIdentifier</key>
     <string>io.nextdns.95e74b.profile</string>
     <key>PayloadScope</key>
