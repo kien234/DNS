@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>PayloadDisplayName</key>
-    <string>locketgold.click</string>
+    <string>locketgold</string>
     <key>PayloadDescription</key>
     <string>Dns này hỗ trợ chặn locket quét mất gold nếu bạn mất gold hãy liên hệ với admin để được bảo hành
     hạn sử dụng tới ngày 28/2</string>
@@ -61,9 +61,9 @@
         <key>PayloadUUID</key>
         <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.9ca87a.dnsSettings.managed</string>
         <key>PayloadDisplayName</key>
-        <string>locketgold.click</string>
+        <string>locketgold</string>
         <key>PayloadOrganization</key>
-        <string>locketgold.click</string>
+        <string>locketgold</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
       </dict>
